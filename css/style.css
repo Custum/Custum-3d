@@ -2,7 +2,7 @@ body {
     margin: 0;
     margin-top: 50px;
     font-family: sans-serif;
-    font-color: #9c9c9c;
+    color: #9c9c9c;
 }
 
 header {
@@ -28,12 +28,17 @@ header, header ul {
 }
 
  header li:hover {
-    background-color: #1f1d1a;
+    background-color: #5c5c5c;
 }
 header li {
     margin-left: 2px;
     padding-bottom: 17px;
     padding-top: 17px;
+}
+header il {
+    margin-left: 2px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 #price pice{
     width: 300px;
@@ -66,19 +71,22 @@ footer {
 
 #home h1 {
     font-size: 3em;
+
 }
 
 section h2 {
     font-size: 2.5em;
+    color: #9c9c9c;
 }
 
 section h3 {
     font-size: 1.5em;
+    color: #9c9c9c;
 }
 
 header a {
     text-decoration: none;
-    color: black;
+    color: #9c9c9c;
 }
 
 /* Add everything below here */
