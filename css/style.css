@@ -2,6 +2,7 @@ body {
     margin: 0;
     margin-top: 50px;
     font-family: sans-serif;
+    font-color: #9c9c9c;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #afe0f1;
+    background-color: #0a0a0a;
     
 
 }
@@ -27,7 +28,7 @@ header, header ul {
 }
 
  header li:hover {
-    background-color: #beeafa;
+    background-color: #1f1d1a;
 }
 header li {
     margin-left: 2px;
@@ -94,5 +95,5 @@ header a {
 
 #price {
     
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROF84UHUG4E7A3gmRjFfehBLGBIQ9-ivUn5Q&usqp=CAU');
+    background-image: url('https://wallpapercave.com/wp/wp5437651.jpg');
 }
