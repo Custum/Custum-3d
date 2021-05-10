@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #afe0f1;
+    
+
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header, header ul {
+    padding: 50;
+}
+
+ header li:hover {
+    background-color: #beeafa;
+}
+header li {
+    margin-left: 2px;
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+#price pice{
+    width: 300px;
+    border-radius: 50%;
+}
+section {
+    height: 100vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#home .profile-img {
+    width: 300px;
+    border-radius: 50%;
+    
+}
+
+footer {
+    text-align: bottom;
+    padding: 0px;
+}
+
+#home h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#home {
+    
+    background-image:  url('https://i.pinimg.com/originals/65/3a/b9/653ab9dd1ef121f163c484d03322f1a9.jpg');
+}
+
+#options {
+    
+    background-image:  url('https://lh5.googleusercontent.com/proxy/KPqVq4_EdMp-6Y3Tx54uoKd7-CtrTq6kEa0ti42wySDGieaWC7QbtPaiAmzmdwMRiOKT_CmMMfjfswmzkKhZfWzpdsLdQOO7hlm3qizKteGK4ezZi-9ts8ieIdjrQhxOABUG6dUDPc4hGPySRUEl6uEHMRqfTEEp-ZJq_u2p3ilVTPA=s0-d');
+}
+
+#price {
+    
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROF84UHUG4E7A3gmRjFfehBLGBIQ9-ivUn5Q&usqp=CAU');
+}
